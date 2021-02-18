@@ -1,4 +1,4 @@
 
-1. Functions BGBtrialAll.m and BGBtrialD111.m were used in pre-processing.
+Functions BGBtrialAll.m and BGBtrialD111.m were used in pre-processing.
 
-2. Function patchline.m was used for coh/PLV plot, cited from https://www.mathworks.com/matlabcentral/fileexchange/36953-patchline, by Brett Shoelson.
+Function patchline.m was used for coh/PLV plot, cited from https://www.mathworks.com/matlabcentral/fileexchange/36953-patchline, by Brett Shoelson.
