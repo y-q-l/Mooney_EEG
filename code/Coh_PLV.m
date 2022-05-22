@@ -22,6 +22,7 @@ save data_fourier data_fourier;
 % Calculate coherence/PLV:
 cfg = [];
 cfg.method = 'coh'; % or cfg.method = 'plv', others same as coherence analysis;
+% cfg.complex = 'absimag'; % Using this syntax if we need the imaginary part
 data_coh = ft_connectivityanalysis(cfg, data_fourier);
 
 %% An example of changing the channel order (to ensure that data arrayed from E1 to E128):
